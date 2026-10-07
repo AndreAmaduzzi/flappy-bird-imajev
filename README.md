@@ -35,7 +35,7 @@ Requirements: [uv](https://docs.astral.sh/uv/) and Python 3.11-3.13 (uv installs
 an NVIDIA GPU (~10 GB of VRAM; ~14.5 GB with `--fast`) or an Apple-silicon Mac, and ~10 GB of disk.
 
 ```bash
-git clone <this repo> && cd <this repo>
+git clone https://github.com/AndreAmaduzzi/flappy-bird-imajev.git && cd flappy-bird-imajev
 uv sync
 
 # 1. Try the app right away: play yourself, or watch the oracle and the random baseline (no model needed)
