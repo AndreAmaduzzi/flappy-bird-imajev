@@ -1,0 +1,12 @@
+Can Imajev play Flappy Bird?
+Copyright 2026 Andrea Amaduzzi
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+It talks to imajev (https://github.com/mohit67890/imajev, Apache-2.0), which is not included and is installed
+separately by scripts/setup_imajev.sh, and to the imajev-4b adapter on Qwen3.5-4B (Apache-2.0).
+
+The fonts in assets/fonts/ are Poppins (Indian Type Foundry) and Lilita One (Juan Montoreano), licensed under the
+SIL Open Font License 1.1; see assets/fonts/*-OFL.txt.
+
+All game graphics are original drawings made in code; no assets from the original Flappy Bird are used.

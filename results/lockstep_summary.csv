@@ -1,0 +1,19 @@
+config,difficulty,games,pipes_mean,pipes_sd,pipes_median,pipes_max,frames_mean,survived_pct,decisions_mean,latency_mean_ms,latency_p95_ms,unknown_top_pct,oracle_agreement_pct,flap_pct,stale_steps_mean,deaths
+direct,easy,5,0.0,0.0,0,0,110.2,0.0,28.0,83.594,88.111,39.286,34.286,59.286,0.0,ceiling:2 pipe_top:2 ground:1
+direct+2f,easy,5,0.0,0.0,0,0,67.0,0.0,17.4,148.494,154.848,8.046,39.08,18.391,0.0,ground:4 pipe_top:1
+oracle,easy,5,74.0,0.0,74,74,7200.0,100.0,1800.0,2.129,2.689,0.0,100.0,11.378,0.0,timeout:5
+perceive_rule,easy,5,47.8,33.342,67,74,4702.2,20.0,1175.6,248.955,255.721,4.593,86.509,16.026,0.0,pipe_bottom:4 timeout:1
+perceive_rule+2f,easy,5,16.0,15.572,12,41,1676.0,0.0,419.4,435.753,442.744,2.098,81.211,22.604,0.0,pipe_bottom:3 pipe_top:2
+random,easy,5,0.2,0.447,0,1,123.2,0.0,31.2,0.001,0.002,0.0,50.641,13.462,0.0,ground:3 ceiling:1 pipe_bottom:1
+direct,hard,5,0.0,0.0,0,0,89.8,0.0,23.0,85.805,88.889,31.304,34.783,66.957,0.0,pipe_top:4 ceiling:1
+direct+2f,hard,5,0.0,0.0,0,0,37.0,0.0,10.0,145.162,155.294,12.0,26.0,0.0,0.0,ground:5
+oracle,hard,5,126.0,0.0,126,126,7200.0,100.0,1800.0,1.598,2.328,0.0,100.0,16.933,0.0,timeout:5
+perceive_rule,hard,5,3.4,5.079,1,12,299.6,0.0,75.2,247.77,254.32,8.511,75.266,19.149,0.0,pipe_top:4 pipe_bottom:1
+perceive_rule+2f,hard,5,3.0,3.464,2,8,270.2,0.0,67.8,429.482,438.773,8.85,76.106,27.139,0.0,pipe_top:4 pipe_bottom:1
+random,hard,5,0.0,0.0,0,0,87.2,0.0,22.4,0.001,0.002,0.0,50.0,18.75,0.0,ground:2 pipe_bottom:2 pipe_top:1
+direct,medium,5,0.0,0.0,0,0,105.0,0.0,26.6,85.596,88.885,31.579,34.586,68.421,0.0,pipe_top:3 ceiling:2
+direct+2f,medium,5,0.0,0.0,0,0,40.0,0.0,10.0,142.495,152.586,22.0,32.0,0.0,0.0,ground:5
+oracle,medium,5,99.0,0.0,99,99,7200.0,100.0,1800.0,1.84,2.34,0.0,100.0,13.7,0.0,timeout:5
+perceive_rule,medium,5,5.2,6.87,3,17,496.4,0.0,124.4,247.152,252.178,8.199,80.707,16.72,0.0,pipe_bottom:3 pipe_top:2
+perceive_rule+2f,medium,5,8.8,6.979,8,19,759.2,0.0,190.2,432.235,440.592,3.68,77.392,25.762,0.0,pipe_top:5
+random,medium,5,0.2,0.447,0,1,118.0,0.0,29.8,0.001,0.002,0.0,55.705,18.792,0.0,ground:2 pipe_bottom:2 pipe_top:1

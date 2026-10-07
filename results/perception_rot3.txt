@@ -1,0 +1,5 @@
+question              n    acc acc_crit    AUC unk_top  brier brier_raw    ece ece_raw
+plain               360  41.4%    26.4%  0.623    8.6%  0.632     0.680  0.260   0.313
+vs_center           360  92.8%        -  0.981    3.9%  0.199     0.172  0.158   0.096
+near_ground         360  89.2%        -  0.987    0.6%  0.151     0.154  0.050   0.031
+hit_lower           360  93.9%        -  0.982    2.5%  0.259     0.219  0.255   0.196

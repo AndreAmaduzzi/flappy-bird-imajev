@@ -1,0 +1,26 @@
+[project]
+name = "flappy-imajev"
+version = "0.1.0"
+description = "Can Imajev play Flappy Bird? An open System One decision model (imajev-4b) plays from raw pixels."
+readme = "README.md"
+license = "Apache-2.0"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+    "numpy>=1.26",
+    "pillow>=10",
+    "pygame>=2.6",
+    "requests>=2.31",
+]
+
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["flappy*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
